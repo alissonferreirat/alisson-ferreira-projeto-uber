@@ -5,5 +5,6 @@ import { fileURLToPath, URL } from 'node:url'
 export default defineConfig({
   base: './',
   plugins: [vue()],
+  base: '/alisson-ferreira-projeto-uber/',
   resolve: { alias: { '@': fileURLToPath(new URL('./src', import.meta.url)) } }
 })
